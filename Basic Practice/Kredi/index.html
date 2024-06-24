@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kredi-Faiz</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="main">
+      <h1>Kredi Hesaplama</h1>
+      <form action="#" id="form">
+        <div>
+          <label for="kreditutar"> Kredi Tutarı</label>
+          <input type="text" id="kredi-tutar" />
+        </div>
+        <br />
+        <div>
+          <label for="vadetutar"> Vade Tutarı</label>
+          <select id="vade">
+            <option value="12">12 Ay</option>
+            <option value="24">24 Ay</option>
+            <option value="36">36 Ay</option>
+            <option value="48">48 Ay</option>
+          </select>
+        </div>
+      </form>
+      <br />
+      <button class="btn">Taksit Hesapla</button>
+      <br />
+      <h5 class="result1"></h5>
+      <h5 class="result2"></h5>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>

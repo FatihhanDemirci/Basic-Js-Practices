@@ -1,0 +1,13 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-image: linear-gradient(90deg, #4743d0, #880868);
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  min-height: 100vh;
+  text-align: center;
+}
