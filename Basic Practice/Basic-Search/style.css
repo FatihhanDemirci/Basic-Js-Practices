@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: linear-gradient(90deg, #c93222, #e57814);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  overflow: hidden;
+}
+
+.search {
+  position: relative;
+  height: 50px;
+}
+
+.input {
+  height: 50px;
+  width: 50px;
+  background-color: #fff;
+  border: 2px solid #e57814;
+  transition: 0.3s ease;
+  font-size: 16px;
+  padding: 15px;
+}
+
+.btn {
+  height: 50px;
+  width: 50px;
+  background-color: #fff;
+  border: 2px solid #e57814;
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 50px;
+  width: 50px;
+  transition: 0.3s ease;
+}
+
+.btn i {
+  font-size: 24px;
+  color: #e57814;
+}
+
+.search.active .input {
+  width: 200px;
+}
+
+.search.active .btn {
+  transform: translateX(198px);
+}
