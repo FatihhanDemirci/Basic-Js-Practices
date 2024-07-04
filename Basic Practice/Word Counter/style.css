@@ -1,0 +1,35 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: black;
+}
+
+.main {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 5rem;
+  color: white;
+}
+
+.input {
+  border: 1px solid red;
+}
+
+.btn {
+  margin-top: 0.2rem;
+  background-color: white;
+  color: red;
+  border: 2px solid red;
+}
+
+.btn:hover {
+  background-color: red;
+  color: white;
+}
+.result {
+  margin-top: 1rem;
+  color: red;
+}
