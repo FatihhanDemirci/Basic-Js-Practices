@@ -1,0 +1,25 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: gray;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 15rem;
+  width: 30rem;
+  background-color: rgb(242, 240, 240);
+}
+
+.result {
+  padding: 3rem;
+  color: goldenrod;
+  font-weight: bold;
+  font-size: 2rem;
+}
