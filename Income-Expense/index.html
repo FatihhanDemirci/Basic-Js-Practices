@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="head">
+      <h1>Budget Planning</h1>
+      <br />
+      Amount:
+      <input type="text" class="input" placeholder="Ex:200" />
+      Description:
+      <input type="text" class="input1" />
+      <br />
+      <br />
+      <button class="income">İncome</button>
+      <button class="expense">Expense</button>
+    </div>
+    <hr />
+    <div class="row">
+      <div class="col-6">
+        <div class="pos"></div>
+      </div>
+      <div class="col-6">
+        <div class="neg"></div>
+      </div>
+    </div>
+    <h1 class="total" style="text-align: center"></h1>
+    <script src="app.js"></script>
+  </body>
+</html>

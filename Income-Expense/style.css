@@ -1,0 +1,14 @@
+.head {
+  text-align: center;
+}
+
+h5 {
+  margin-left: 12rem;
+  font-size: 2rem !important;
+}
+
+.pos {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
