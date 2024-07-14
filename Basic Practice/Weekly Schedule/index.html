@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="header">
+      <input type="text" placeholder="Enter Task" class="input" />
+      <button class="add-btn">Add Task</button>
+      <select class="day-select">
+        <option value="monday">Monday</option>
+        <option value="tuesday">Tuesday</option>
+        <option value="wednesday">Wednesday</option>
+        <option value="thursday">Thursday</option>
+        <option value="friday">Friday</option>
+        <option value="saturday">Saturday</option>
+      </select>
+    </header>
+    <br />
+    <div class="container">
+      <div class="row">
+        <div class="col-3">
+          <h3>Monday</h3>
+          <ul class="list-group monday"></ul>
+        </div>
+        <div class="col-3">
+          <h3>Tuesday</h3>
+          <ul class="list-group tuesday"></ul>
+        </div>
+        <div class="col-3">
+          <h3>Wednesday</h3>
+          <ul class="list-group wednesday"></ul>
+        </div>
+      </div>
+      <br />
+      <div class="row">
+        <div class="col-3">
+          <h3>Thursday</h3>
+          <ul class="list-group thursday"></ul>
+        </div>
+        <div class="col-3">
+          <h3>Friday</h3>
+          <ul class="list-group friday"></ul>
+        </div>
+        <div class="col-3">
+          <h3>Saturday</h3>
+          <ul class="list-group saturday"></ul>
+        </div>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>

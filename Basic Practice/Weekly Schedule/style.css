@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background-color: rgb(207, 218, 248);
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.input {
+  margin-right: 1rem;
+  border: 2px solid red;
+}
+
+.add-btn {
+  background: white;
+  color: red;
+  border: 2px solid red;
+}
+
+.add-btn:hover {
+  background: red;
+  color: white;
+}
+
+.day-select {
+  margin-left: 1rem;
+  background: white;
+  color: red;
+  border: 2px solid red;
+}
+/* grid */
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.col-3 {
+  height: 16rem;
+  background-color: rgb(207, 218, 248);
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.col-3 ul {
+  padding: 1rem;
+}
+
+.col-3 li {
+  display: flex;
+  justify-content: space-between;
+}
+
+.col-3 h3 {
+  text-align: center;
+}
+
+.checked {
+  background-color: blue;
+}
