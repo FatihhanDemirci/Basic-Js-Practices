@@ -1,0 +1,19 @@
+body {
+  background-color: blue;
+}
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.key h4 {
+  background-color: white;
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 1rem;
+  border-radius: 35px;
+  font-size: 1.5rem;
+}
