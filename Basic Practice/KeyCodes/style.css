@@ -7,13 +7,19 @@ body {
   align-items: center;
   height: 100vh;
 }
+h3 {
+  text-align: center;
+  color: white;
+  border: 1px solid white;
+  margin-right: 1rem;
+}
 .key h4 {
   background-color: white;
-  padding: 2rem;
+  height: 3rem;
+  width: 12rem;
   display: flex;
   justify-content: center;
   align-items: center;
   margin-right: 1rem;
-  border-radius: 35px;
   font-size: 1.5rem;
 }
